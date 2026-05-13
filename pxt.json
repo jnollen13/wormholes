@@ -1,0 +1,37 @@
+{
+    "name": "Noodlify",
+    "description": "Wormholes are a very mysterious and strange topic that is still being learned about. One big reason that we still don’t know very much about them is because we haven't actually found any and the only experiments done with them used a computer to simulate a wormhole. Another reason that it is strange is because the way wormholes work can’t easily be shown and the main way they are drawn shows space bending so the wormhole can go straight, but that drawing isn’t very accurate because wormholes are also thinner than paper. Also another reason that they are mysterious is because they would apparently need “ghost matter” to stay open. The way the ghost matter works is it does the opposite of what the normal matter would do when because of gravity, so it would fall up instead of down. But I also think that they could stay open by spinning because of centripetal(I think it’s the right one it might also be centrifugal) force. A few years ago people figured out a way to detect the gravity waves of when a black hole enters a wormhole but it doesn’t seem like it is possible for that to happen because a more recent article talks about how if any mass enters a wormhole then the wormhole will close. Because of all of this wormholes are very confusing and we don’t know very much about them.\n\nWormhole\nA tunnel formed by the warping of space time that can let an object take a shortcut to a faraway place or time.\n\nGravity\nA force that pulls things towards something with mass. The more mass it has the stronger the force is.\n\nSpacetime\nA designation for some spot given in terms of its three-dimensional coordinates in space, along with a fourth coordinate for time.\n\nRelativity\nA theory developed by physicist Albert Einstein showing that neither space nor time are constant, but instead affected by one’s velocity and the mass of things in your vicinity.\n\nMatter \nSomething that occupies space and has mass. Anything with matter will have a property called \"weight\" if they are near something with a lot more gravity than it.\n\nGhost Matter\nIt is the same thing as normal matter except it reacts to gravity in the opposite way, so it basically falls up.\n\nAuto-Generated Game Description:\nThis game is about flying a spaceship through space, entering wormholes, and avoiding meteors while you try to stay alive and build up your score.\n\nYou move the spaceship left and right with the arrow keys (or D-pad) and can change how fast you move using J to speed up and K to slow down. Try to steer into the glowing wormholes to trigger special travel effects and clear dangers, but avoid the meteor enemies, because if they hit you, you’ll lose. The longer you survive and the better you use the wormholes without crashing into meteors, the higher your score will grow.",
+    "dependencies": {
+        "device": "*",
+        "sprite-fx": "github:kohanmathers/makecodespritefx#v1.3.0",
+        "sprite-scaling": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "browser-events": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "custom_particles.ts",
+        "secondary.ts",
+        "stars.ts",
+        "registry.ts",
+        "moresprite.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.14",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
